@@ -5,7 +5,7 @@ const openai = new OpenAI({
   apiKey: process.env["OPENAI_API_KEY"], // Ensure this is correctly set
 });
 
-export async function GET(req: NextRequest) {
+export async function GET(req) {
   try {
     const completion = await openai.chat.completions.create({
       messages: [
