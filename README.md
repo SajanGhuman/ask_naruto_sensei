@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Ask Naruto Sensei 🤔🍥
 
-## Getting Started
+Ask Naruto Sensei is an talking AI chatbot designed to answer your questions with responses in both Japanese and English related to Naruto series. Whether you're a seasoned Naruto fan or just starting your journey in the ninja world, this bot has got you covered! 🥷✨
+Features 🌟
 
-First, run the development server:
+  - Dual-Language Responses: Get answers in both Japanese and English for a seamless experience.
+  - Customizable Replies: Easily extend the bot's knowledge base with your own questions and answers.
+  - Anime-Themed Fun: Brings the world of Naruto to life with an engaging Q&A format.
+  - Efficient and Lightweight: Built for quick and accurate responses.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Tech Stack 🛠️
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  - Language: JavaScript/TypeScript
+  - Framework: Next.js
+  - Styling: Tailwind CSS
+  - Zustand: Global state management
+  - APIs: ChatGPT API integration for dynamic answers
+  - Deployment: Fully optimized for modern hosting platforms
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+How to Use 💻
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  - Clone the repository:
 
-## Learn More
+        git clone https://github.com/SajanGhuman/ask_naruto_sensei.git
+        cd ask_naruto_sensei
 
-To learn more about Next.js, take a look at the following resources:
+  - Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+        npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  - Start the development server:
 
-## Deploy on Vercel
+        npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open your browser and navigate to http://localhost:3000 to start asking questions!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Future Roadmap 🗺️
+
+- Expand support for other anime-themed bots.
+
+Contributing 🤝
+
+Contributions are welcome! Feel free to fork the repository, create a new branch, and submit a pull request.
